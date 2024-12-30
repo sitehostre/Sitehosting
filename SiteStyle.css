@@ -1,0 +1,157 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the logo and social media icons */
+    align-items: center; /* Vertically center all items within the header */
+    padding: 10px 20px; /* Add some spacing around the header */
+    background-color: #0b1b2d;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo
+{
+    display: flex;
+}
+
+.logo img
+{
+    width:100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Aligns the social media icons in the center */
+    gap: 20%; /* Adds space between the icons */
+    margin:auto;
+}
+
+
+.header .social-media a img {
+    width: 40px;
+    height: auto px;
+    transition: transform 0.3s ease;
+}
+
+.header .social-media a img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #3e220d;
+    
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.hero .logo
+{
+    width: 10%;
+    height: 10%;
+    margin: auto;
+}
+
+.cta-button
+{
+    margin: auto;
+    text-decoration: none;
+    font-size: 200%;
+    color:#fff;
+}
+
+
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+}
