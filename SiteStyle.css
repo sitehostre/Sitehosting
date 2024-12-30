@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-image: url(background.jpg);*/ 
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -43,5 +43,5 @@ body {
 }
 
 .social-media-link:hover {
-    transform: scale(1.0);
+    transform: scale(1.1);
 }
