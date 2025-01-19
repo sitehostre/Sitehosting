@@ -1,4 +1,4 @@
- body {
+body {
             margin: 0;
             padding: 0;
             background-image: url('BackGround.png');
@@ -68,18 +68,18 @@
 	    font-size: 2.5em;
         }
 
-        .code-container button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #3A3A3A;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
+.code-container button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #3A3A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+ }
 
-        .code-container button:hover {
-            background-color: #A83232;
-        }
+.code-container button:hover {
+        background-color: #A83232;
+}
