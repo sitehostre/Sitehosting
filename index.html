@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SniddyCoin</title>
     <link rel="stylesheet" href="SiteStyle.css">
-</head>
-
+   </head>
 <body>
-    
-        <div class="social-media-container">
+    <div class="social-media-container">
         <a href="https://x.com/?lang=en" class="social-media-link" target="_blank">
             <h1>Twitter</h1>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT81LGhC2u7DrTVVFQVzK3lUrOajZHxQAmh5Q&s" alt="X">
@@ -27,7 +25,21 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="Telegram">
         </a>
     </div>
-    
+
+    <div class="code-container">
+        <pre id="codeBlock"> ADOAEFOHFOPAGRJOFADOKADFJP</pre>
+        <button onclick="copyCode()">Copy</button>
+    </div>
+
+    <script>
+        function copyCode() {
+            const codeBlock = document.getElementById("codeBlock").textContent;
+            navigator.clipboard.writeText(codeBlock).then(() => {
+                alert("Code copied to clipboard!");
+            }).catch(err => {
+                console.error("Could not copy text: ", err);
+            });
+        }
+    </script>
 </body>
 </html>
-
